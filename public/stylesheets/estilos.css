@@ -1,0 +1,874 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  overflow: auto; }
+
+body {
+  height: 100%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.main {
+  position: relative;
+  overflow: hidden; }
+
+.logo-texto {
+  position: absolute;
+  top: 75%;
+  width: 70%;
+  filter: opacity(1);
+  left: 15%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.logo-texto-opaco {
+  filter: opacity(0);
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  z-index: 0; }
+
+.encabezado {
+  padding: 2rem 1rem 2rem 10rem;
+  background: #0096A9;
+  filter: opacity(0.5); }
+
+.body-background {
+  animation-name: fondo;
+  animation-duration: 1s; }
+
+iframe {
+  border: 0;
+  margin: 1rem auto;
+  display: block; }
+
+.biografia-titulo {
+  text-transform: uppercase; }
+
+.contenedor-menu-circular {
+  position: absolute;
+  width: 90vw;
+  height: 50vh;
+  top: 16%;
+  z-index: 2;
+  left: 5%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.contenedor-menu-circular-abajo {
+  height: 67px;
+  top: 75%;
+  width: 67px;
+  left: 70%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.contenedor-menu-circular-abajo-extendido {
+  left: 40%;
+  width: 54%;
+  height: 26%;
+  top: 66%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.menu-circular {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
+.menu-circular-svg {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute; }
+
+.menulogo {
+  width: 97px;
+  height: 97px;
+  top: 36%;
+  left: 35%;
+  z-index: 2;
+  border: 0px solid #0096A9;
+  border-radius: 50%;
+  background: rgba(0, 150, 169, 0.4);
+  filter: opacity(50%);
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+  .menulogo:hover {
+    cursor: pointer;
+    filter: opacity(100%);
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.borde-animado {
+  animation: borde 1s ease-in-out infinite alternate; }
+
+@keyframes borde {
+  from {
+    padding: 0; }
+  to {
+    padding: 0.7rem; } }
+.menu-logo-abajo {
+  width: 67px;
+  height: 67px;
+  top: 0;
+  left: 0; }
+
+.menu-logo-abajo-extendido {
+  width: 34%;
+  height: 34%;
+  top: 33%;
+  left: 33%; }
+
+.menu-extendido-off {
+  transform: scale(0) rotate(-120deg);
+  transform-origin: 50%;
+  filter: opacity(0);
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.menu-extendido {
+  display: block;
+  transform: scale(1) rotate(0deg);
+  transform-origin: 50%;
+  filter: opacity(1);
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+#formacion .st1, #logo .st1, #estetica .st1, #cirugia .st1, #contacto .st1 {
+  fill: #0096A9;
+  fill-opacity: 0;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+#formacion:hover, #logo:hover, #estetica:hover, #cirugia:hover, #contacto:hover {
+  cursor: pointer; }
+  #formacion:hover .st1, #logo:hover .st1, #estetica:hover .st1, #cirugia:hover .st1, #contacto:hover .st1 {
+    fill-opacity: 0.4;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.st0 {
+  fill: #0096A9;
+  fill-opacity: 0.4; }
+
+.st1 {
+  fill: #0096A9; }
+
+.st2 {
+  clip-path: url(#SVGID_2_); }
+
+.st3 {
+  clip-path: url(#SVGID_4_);
+  fill: #FFFFFF; }
+
+.st4 {
+  fill: #FFFFFF; }
+
+.st5 {
+  clip-path: url(#SVGID_6_); }
+
+.st6 {
+  clip-path: url(#SVGID_8_);
+  fill: #FFFFFF; }
+
+.st7 {
+  clip-path: url(#SVGID_10_); }
+
+.st8 {
+  clip-path: url(#SVGID_12_);
+  fill: #FFFFFF; }
+
+.st9 {
+  clip-path: url(#SVGID_14_); }
+
+.st10 {
+  clip-path: url(#SVGID_16_);
+  fill: #FDFEFF; }
+
+.st11 {
+  clip-path: url(#SVGID_18_); }
+
+.st12 {
+  clip-path: url(#SVGID_20_);
+  fill: #FFFFFF; }
+
+.st13 {
+  clip-path: url(#SVGID_22_); }
+
+.st14 {
+  clip-path: url(#SVGID_24_); }
+
+.st15 {
+  filter: url(#Adobe_OpacityMaskFilter); }
+
+.st16 {
+  clip-path: url(#SVGID_26_); }
+
+.st17 {
+  enable-background: new; }
+
+.st18 {
+  clip-path: url(#SVGID_29_); }
+
+.st19 {
+  clip-path: url(#SVGID_31_);
+  fill: url(#SVGID_32_); }
+
+.st20 {
+  filter: url(#Adobe_OpacityMaskFilter_1_); }
+
+.st21 {
+  clip-path: url(#SVGID_34_);
+  fill: url(#SVGID_35_); }
+
+.st22 {
+  clip-path: url(#SVGID_34_);
+  mask: url(#SVGID_27_);
+  fill: url(#SVGID_36_); }
+
+.st23 {
+  clip-path: url(#SVGID_38_); }
+
+.st24 {
+  clip-path: url(#SVGID_40_);
+  fill: url(#SVGID_41_); }
+
+.st25 {
+  clip-path: url(#SVGID_26_);
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #FFFFFF; }
+
+#content {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden; }
+
+article {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-size: cover;
+  background-position: center; }
+  article p {
+    padding: 1rem 2rem 0.5rem 2rem; }
+
+.seccion-contenido {
+  padding: 1rem 2rem; }
+
+.activa {
+  z-index: 1;
+  opacity: 1;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s; }
+
+.off {
+  z-index: 0;
+  opacity: 0;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 1s; }
+
+.titulo-seccion {
+  display: block;
+  padding: 2rem 2rem 0 0;
+  font-size: 2.5rem;
+  text-align: right;
+  text-transform: uppercase; }
+
+.linea-titulo {
+  height: 5px;
+  width: 90%; }
+  .linea-titulo line {
+    stroke: #0096A9;
+    stroke-width: 4px; }
+
+#inicio-seccion {
+  background-image: url(/img/servicios2.jpg); }
+
+#cirugia-seccion {
+  background-image: url(/img/servicios2.jpg); }
+
+#formacion-seccion {
+  background-image: url(/img/formacion2.jpg); }
+
+#logo-seccion {
+  background-color: rgba(0, 150, 169, 0.3); }
+
+#estetica-seccion {
+  background-image: url(/img/estetica2.jpg); }
+
+#contacto-seccion {
+  background-image: url(/img/contacto2.jpg); }
+
+.listado-cirugia {
+  position: absolute;
+  width: 84%;
+  left: 8%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s; }
+
+.listado-cirugia-corrido {
+  left: -100%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s; }
+
+.cirugia-seccion-item, .estetica-seccion-item {
+  height: 8rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 0.5rem auto;
+  background-color: #0096A9;
+  color: white;
+  font-size: 1.3rem;
+  display: block;
+  position: relative; }
+  .cirugia-seccion-item img, .estetica-seccion-item img {
+    width: 100%;
+    filter: opacity(0.3); }
+  .cirugia-seccion-item h1, .estetica-seccion-item h1 {
+    position: absolute;
+    display: block;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    top: 25%; }
+  .cirugia-seccion-item:hover, .estetica-seccion-item:hover {
+    cursor: pointer; }
+
+.contenido-seleccion {
+  position: absolute;
+  left: 105%;
+  width: 84%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s; }
+
+.contenido-seccion-mostrado {
+  left: 8%;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.6s; }
+
+.far, .far, .fas {
+  color: #0096A9;
+  font-size: 1.4rem; }
+
+.boton-volver {
+  position: absolute;
+  width: 3rem;
+  top: -8rem; }
+  .boton-volver:hover {
+    cursor: pointer; }
+
+#referencia {
+  display: none; }
+
+.instagram-header {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap; }
+
+.instagram-foto {
+  order: 1;
+  border-radius: 50%;
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  margin: 0.5rem; }
+  .instagram-foto img {
+    width: 100%;
+    height: 100%; }
+
+.instagram-nombre {
+  order: 3;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem 0; }
+
+.instagram-datos {
+  order: 2;
+  width: 51%;
+  padding: 0.5rem; }
+  .instagram-datos ul {
+    display: flex;
+    text-align: center;
+    font-size: 0.7rem; }
+    .instagram-datos ul li {
+      width: 3rem;
+      overflow: hidden;
+      padding: 0 0.4rem; }
+      .instagram-datos ul li span {
+        font-size: 1.2rem; }
+
+.instagram-bio {
+  width: 100%;
+  order: 4; }
+
+.instagram-titulo {
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  border-bottom: solid grey 1px;
+  padding: 1rem; }
+
+.contacto-contenido-redes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.redes {
+  width: 30%;
+  margin: 0; }
+  .redes a i {
+    font-size: 4rem; }
+
+.redes-texto {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem; }
+
+.whatme {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.enviar-datos {
+  margin: 1rem;
+  display: block;
+  position: relative; }
+
+.dato-form {
+  position: relative;
+  display: block;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  height: 2rem;
+  width: 70%;
+  margin: 1rem 0 1.5rem 0;
+  z-index: 2;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+  .dato-form:focus, .dato-form:valid {
+    border-bottom: 1px solid #0096A9; }
+  .dato-form:focus + label, .dato-form:valid + label {
+    top: -4.3rem;
+    font-size: 0.7rem; }
+
+.dato-label {
+  display: block;
+  position: relative;
+  top: -3rem;
+  z-index: 1;
+  font-size: 1rem;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.logo-seccion-logo {
+  width: 50%;
+  margin: auto; }
+
+.logo-seccion-caption {
+  text-align: center; }
+
+.logo-seccion-cita {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem 0 2rem; }
+
+.firma .firma-turizo {
+  font-size: 2rem;
+  border-bottom: 1px solid #0096A9;
+  width: 13rem;
+  margin: auto;
+  padding: 1rem 0 1rem;
+  font-family: "Italianno", cursive;
+  padding: 0; }
+.firma .firma-cirujano {
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem; }
+
+.formacion-seccion-parte p {
+  padding: 0 0 1rem;
+  text-align: justify; }
+.formacion-seccion-parte h2 {
+  padding: 1rem; }
+
+.formacion-seccion-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.formacion-seccion-imagen {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 154px;
+  height: 150px;
+  margin: 1rem;
+  border: 2px solid #0096A9; }
+  .formacion-seccion-imagen img {
+    width: 100%;
+    height: 100%; }
+
+.formacion-seccion-item {
+  padding: 1rem; }
+  .formacion-seccion-item ul li {
+    padding: 0.3rem; }
+
+@media only screen and (min-width: 1px) and (orientation: landscape) {
+  .contenedor-menu-circular {
+    height: 70vh;
+    top: 8%;
+    left: 5%;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+  .contenedor-menu-circular-abajo {
+    width: 80px;
+    height: 80px;
+    top: 66%;
+    left: 78%;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+  .contenedor-menu-circular-abajo-extendido {
+    left: 62%;
+    top: 41%;
+    width: 35%;
+    height: 60vh; }
+
+  .menu-circular {
+    height: 100%;
+    position: relative;
+    top: -5%; }
+
+  .menulogo {
+    width: 80px;
+    height: 80px;
+    left: 43%;
+    top: 30%; }
+
+  .menu-logo-abajo {
+    top: 0;
+    left: 0; }
+
+  .menu-logo-abajo-extendido {
+    width: 34%;
+    height: 34%;
+    top: 30%;
+    left: 34%; }
+
+  .logo-texto {
+    width: 40%;
+    top: 73%;
+    left: 30%; }
+
+  .instagram-header {
+    width: 59%;
+    margin: auto; }
+
+  .enviar-datos {
+    margin: 2rem 5rem; }
+
+  .logo-seccion-logo {
+    width: 30%; } }
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  .contenedor-menu-circular {
+    width: 70vw;
+    left: 16%; }
+
+  .contenedor-menu-circular-abajo {
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    top: 80%;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+  .contenedor-menu-circular-abajo-extendido {
+    width: 38%;
+    height: 29%;
+    left: 56%;
+    top: 65%;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+  .menulogo {
+    width: 170px;
+    height: 170px;
+    left: 35%; }
+
+  .menu-logo-abajo {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0; }
+
+  .menu-logo-abajo-extendido {
+    top: 35%;
+    left: 33%; }
+
+  .logo-texto-opaco {
+    filter: opacity(0);
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+  .instagram-header {
+    width: 59%;
+    margin: auto; }
+
+  .enviar-datos {
+    margin: 2rem 5rem; }
+
+  iframe {
+    width: 32rem;
+    height: 21rem; }
+
+  .logo-seccion-logo {
+    width: 25%;
+    margin: 10rem auto auto; } }
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  .contenedor-menu-circular {
+    height: 60vh; }
+
+  .logo-texto {
+    width: 33%;
+    left: 33.3%;
+    top: 75%; } }
+@media only screen and (min-width: 1024px) {
+  .titulo-seccion {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 70%;
+    margin: 0 0% 0 26%; }
+
+  .espacio-vacio {
+    display: block;
+    width: 100%;
+    height: 130px; }
+
+  .seccion-contenido {
+    width: 70%;
+    margin: 0 0 0 30%;
+    padding: 1rem 4rem;
+    height: 80%;
+    overflow: hidden;
+    position: relative; }
+
+  .seccion-contenido-contenedor {
+    height: 100%;
+    overflow: auto;
+    padding: 0px 3rem; }
+    .seccion-contenido-contenedor iframe {
+      width: 90%;
+      height: 15rem; }
+
+  .listado-cirugia {
+    padding: 0 2rem 2rem 0;
+    position: absolute;
+    width: 84%;
+    height: 100%;
+    overflow: auto; }
+
+  .contenedor-menu-circular {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 0; }
+
+  .contenedor-menu-circular-abajo {
+    top: 0;
+    left: 4%;
+    width: 30%;
+    height: 100%;
+    padding: 1rem; }
+
+  .logo-texto {
+    width: 45%;
+    left: 27.5%; }
+
+  .logo-texto-lateral {
+    display: block;
+    filter: opacity(1);
+    top: 70%;
+    width: 70%;
+    left: 15%; }
+
+  .menu-circular {
+    top: -10%; }
+
+  .menulogo {
+    width: 150px;
+    height: 150px;
+    top: 25%;
+    left: 43%; }
+
+  .menu-logo-abajo-extendido {
+    width: 30%;
+    height: 12%;
+    left: 35%;
+    top: 35%; }
+
+  .activa {
+    overflow: hidden; }
+
+  .cirugia-item a img {
+    transform: translate(0%, -23%); }
+
+  .contenido-seleccion {
+    display: flex;
+    overflow: auto;
+    height: 100%; }
+
+  .boton-volver {
+    position: static;
+    width: 40px; }
+
+  .seccion-rellenar {
+    padding: 0 2rem;
+    width: 95%; }
+
+  .cirugia-seccion-contenedor-seleccionado {
+    text-align: justify; }
+    .cirugia-seccion-contenedor-seleccionado h1 {
+      font-size: 2rem; }
+    .cirugia-seccion-contenedor-seleccionado h2 {
+      font-size: 1rem;
+      padding: 1rem 0; }
+    .cirugia-seccion-contenedor-seleccionado ul {
+      padding: 2rem 2rem; }
+      .cirugia-seccion-contenedor-seleccionado ul li {
+        padding: 0.5rem 0; }
+    .cirugia-seccion-contenedor-seleccionado p span {
+      color: #0096A9;
+      text-decoration: underline #0096A9; } }
+@media only screen and (min-width: 1200px) {
+  .contenedor-menu-circular-abajo {
+    width: 350px;
+    height: 768px;
+    top: 0%; }
+
+  .menulogo {
+    left: 46%; }
+
+  .menu-logo-abajo-extendido {
+    left: 35%; }
+
+  .logo-texto {
+    width: 25%;
+    left: 37.5%; }
+
+  .logo-texto-lateral {
+    width: 65%;
+    left: 17.25%;
+    top: 75%; }
+
+  .menu-circular {
+    position: relative; }
+
+  .seccion-contenido {
+    width: auto;
+    margin: 0 15% 0 37%; }
+
+  .titulo-seccion {
+    width: 1100px;
+    margin: auto;
+    padding: 2rem 2rem; }
+
+  .linea-titulo {
+    width: 100%; } }

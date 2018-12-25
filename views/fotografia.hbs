@@ -1,0 +1,76 @@
+<section class="info-pagina">
+	<section class="foto-inicio">
+		<img src="/img/fotografia.jpg" alt="">
+	</section>
+	<div id="espacio-vacio"></div>
+
+	<div id="btn-abajo-1" class="btn-abajo">
+		<a href="#main"><span class="btn-span">Ver Albumes</span>
+			<br>
+			<i class="fas fa-angle-double-down"></i></a>
+	</div>
+
+	<h1 class="titulo-pagina" id="titulo-pagina">fotografia</h1>
+</section>
+
+<section id="main" class="main">
+	<div id="galeria-fotografia">
+		<div id="indice-galeria" class="listado">
+			<h3>Albumes</h3>
+			<div id="formulario">
+				<button class="album-selecion" id="btn-circuito-chico" data-index='1' type="button" value="Circuito Chico">Circuito
+					Chico</button>
+				<br>
+				<div class="m-visor-album" name="Circuito Chico">
+				</div>
+				<button class="album-selecion" id="btn-personas" data-index='2' type="button" value="En Accion">Personas</button>
+				<br>
+				<div class="m-visor-album" name="En Accion">
+				</div>
+				<button class="album-selecion" id="btn-iguazu" data-index='3' type="button" value="Iguazu">Iguazú</button>
+				<br>
+				<div class="m-visor-album" name="Iguazu">
+				</div>
+				<button class="album-selecion" id="btn-itaipu" data-index='4' type="button" value="Itaipu">Itaipu</button>
+				<br>
+				<div class="m-visor-album" name="Itaipu">
+				</div>
+				<button class="album-selecion" id="btn-jardin" data-index='5' type="button" value="Jardin">Jardín</button>
+				<br>
+				<div class="m-visor-album" name="Jardin">
+				</div>
+				<button class="album-selecion" id="btn-lago-moreno" data-index='6' type="button" value="Lago Moreno" name="Lago Moreno">Lago
+					Moreno</button>
+				<br>
+				<div class="m-visor-album" name="Lago Moreno">
+				</div>
+				<button class="album-selecion" id="btn-lago-nahuel-huapi" data-index='7' type="button" value="Nahuel Huapi">Lago
+					Nahuel Huapi</button>
+				<br>
+				<div class="m-visor-album" name="Nahuel Huapi">
+				</div>
+				<button class="album-selecion" id="btn-bariloche" data-index='9' type="button" value="S.C. de Bariloche">S. C. de
+					Bariloche</button>
+				<div class="m-visor-album" name="S.C. de Bariloche">
+				</div>
+				<br>
+				<button class="album-selecion" id="btn-vida-animal" data-index='10' type="button" value="Vida animal">Vida Animal</button>
+				<div class="m-visor-album" name="Vida animal">
+				</div>
+				<br>
+				<button class="album-selecion" id="btn-misc" data-index='11' type="button" value="Miscelaneos">Miscelánea</button>
+				<br>
+				<div class="m-visor-album" name="Miscelaneos">
+				</div>
+			</div>
+		</div>
+		<div id="fotografias-galeria">
+			<h1 class="titulo-album">GALERIA FOTOGRÁFICA</h1>
+			<p>En Este espacio podrás ver mi trabajo en fotografía, puedes dar click en alguno de los albumes de la izquierda para verlas imágenes que lo componen, así como poder ver luego las imágenes en pantalla completa.</p>
+		</div>
+	</div>
+	<div id='visor-album' class='visor-album transicion1'>
+		{{> visorGaleria}}
+	</div>
+</section>
+<script type="text/javascript" src="/js/galeriafotografia.js"></script>

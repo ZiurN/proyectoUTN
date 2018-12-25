@@ -1,0 +1,99 @@
+<section class="foto-inicio">
+    <img src="/img/blog/Puntillito.jpg" alt="">
+</section>
+<div id="espacio-vacio"></div>
+
+<div id="btn-abajo-1" class="btn-abajo">
+    <a href="#main"><span class="btn-span">Registrarse</span>
+        <br>
+        <i class="fas fa-angle-double-down"></i></a>
+</div>
+
+<h1 class="titulo-pagina" id="titulo-pagina">REGISTRO</h1>
+
+<section id="main" class="main">
+
+    <div class="registro sub-main-impar sub-main-margen">
+        <div class="registro-titulo">
+            <h2>Formulario de Registro</h2>
+        </div>
+        <div class="registro-instrucciones">
+            <h3>Instrucciones</h3>
+            <br>
+            <p>Por favor, diligencia el formulario a la derecha para poder registrarte, ten en cuenta lo siguiente:</p>
+            <br>
+            <ol>
+                <li>Procura usar un nombre entre 4 y 25 caracteres; puede ocupar espacios y caracteres especiales, pero
+                    recuerda que esto es un blog, para escribir y leer, no una red social, pero queda en ti como
+                    quieras que te vean los demás.</li>
+                <li>Procura usar un correo real, ya que este será importante para la gestión de tu cuenta, recuperación
+                    de información como tu contraseña, y demás cosas que pueden ser muy importantes.</li>
+                <li>La contraseña no tiene ninguna limitante, y puede ser tan larga o tan corta como quieras, pero
+                    trata de que sea segura.</li>
+                <li>SI no cargas ninguna imagen no pasará nada, podrás subir una después desde el sitio de gestión,
+                    pero procura que la imagen sea de formato JPG, PNG, BMP, o GIF, y que esta no pese más de 2 Mb.</li>
+                <li>Lee por favor las condiciones y clausulas relacionadas con el uso de este sitio antes de enviar tus
+                    datos, ya que al hacerlo estas aceptando dichas condiciones.</li>
+                <li>Espero que este sitio pueda serte de utilidad y de entretenimiento.</li>
+            </ol>
+            <a href="#">¿Ya tienes una cuenta?</a>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+        <div class="registro-formulario">
+            <h3>Tus datos</h3>
+            <form role="form" method="post" action="/api/registro" enctype="multipart/form-data" name="formulario1">
+                <div class="dato-formulario">
+                    <label class="dato-nombre">Tu nombre</label>
+                    <input id="nombre" name="nombre" type="text" class="dato-entrada" placeholder="Pón tu nombre aquí">
+                </div>
+                <br>
+
+                <div id="nombre-error" class="cuadro-aviso cuadro-aviso-rojo" role="alert"></div>
+
+                <div class="dato-formulario">
+                    <label class="dato-nombre">Tu correo electrónico</label>
+                    <input id="email" name="email" type="email" class="dato-entrada" placeholder="ejemplo@dominio">
+                    <small class="dato-texto">No compartimos tu información con nadie más.</small>
+                </div>
+
+                <div id="email-error" class="cuadro-aviso cuadro-aviso-rojo" role="alert"></div>
+
+                <div class="dato-formulario">
+                    <label class="dato-nombre">Tu Contraseña</label>
+                    <input id="password1" name="password1" type="password" class="dato-entrada" placeholder="Contraseña">
+                </div>
+
+                <div id="clave1-error" class="cuadro-aviso cuadro-aviso-rojo" role="alert"></div>
+
+                <div class="dato-formulario">
+                    <label class="dato-nombre">Repite tu contraseña</label>
+                    <input id="password2" name="password2" type="password" class="dato-entrada" placeholder="Confirma tu contraseña">
+                </div>
+
+                <div id="clave2-error" class="cuadro-aviso cuadro-aviso-rojo" role="alert"></div>
+
+                <div class="dato-formulario">
+                    <label class="dato-nombre">Carga una imágen de perfil</label>
+                    <input type="file" id="imagen-autor" name="imagen-autor">
+                    <small class="dato-texto">Si no cargas una imágen, se pondrá una por defecto.</small>
+                </div>
+
+                <div class="checkbox">
+                    <label class="dato-nombre">
+                        <input id="checkbox" type="checkbox" name="checkbox"> Acepto las condiciones.
+                    </label>
+                </div>
+
+                <div id="checkbox-error" class="cuadro-aviso cuadro-aviso-rojo" role="alert"></div>
+
+                <br>
+                <div class="contenedor-botones">
+                    <button name="limpiar" type="reset" class="btn btn-blanco btn-centrado">Limpiar el formulario</button>
+                    <br>
+                    <button id="enviar-registro" name="enviar-registro" type="button" class="btn btn-blanco btn-centrado">Enviar Datos</button>
+                </div> 
+            </form> 
+        </div> 
+    </div> 
+</section>
+<script type="text/javascript" src="/js/registroValidacion.js"></script>

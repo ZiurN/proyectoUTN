@@ -1,0 +1,1779 @@
+@font-face {
+  font-family: Ailerons, Algerian, Arial;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Advent Pro", sans-serif;
+  font-family: "Julius Sans One", sans-serif; }
+.logo-info-empresa {
+  width: 2rem;
+  height: 2rem; }
+  .logo-info-empresa img {
+    height: 100%; }
+
+.numero-svg {
+  fill: #FFFFFF; }
+
+.triangulos-svg {
+  fill: #A7A9AC; }
+
+.linea-svg {
+  fill: none;
+  stroke: #A8A9AC;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10; }
+
+.elemento-tl {
+  fill: #A7A9AC;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+  .elemento-tl:hover {
+    cursor: pointer; }
+
+#tl-kunstmann:hover {
+  fill: #EDBA13;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-quatre:hover {
+  fill: #FF0000;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-dagda:hover {
+  fill: #CAB180;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-pioneros:hover {
+  fill: #BA1418;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-llao:hover {
+  fill: #092B58;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-oliver:hover {
+  fill: #EAAA46;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-chamberi:hover {
+  fill: #FEE100;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-gigis:hover {
+  fill: #8F0121;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-saja:hover {
+  fill: #DDDDDD;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-forchetta:hover {
+  fill: #CE000C;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-monkey:hover {
+  fill: #5C0C0E;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-solowrap:hover {
+  fill: #FF67A2;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-gimnasio:hover {
+  fill: #FDD002;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-fude:hover {
+  fill: #DE3340;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-unal-filo:hover {
+  fill: #009638;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-mesa:hover {
+  fill: #238276;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-unal-fisica1:hover {
+  fill: #009638;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-unal-fisica2:hover {
+  fill: #009638;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+#tl-cocina:hover {
+  fill: #238276;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+.st0 {
+  fill: #E0E0E0; }
+
+.st1 {
+  fill: #D8D8D8; }
+
+.st2 {
+  fill: #D0D0D0; }
+
+.st3 {
+  fill: #C8C8C8; }
+
+.st4 {
+  fill: #C0C0C0; }
+
+.st5 {
+  fill: #B8B8B8; }
+
+.st6 {
+  fill: #B0B0B0; }
+
+.st7 {
+  fill: #A8A8A8; }
+
+.st8 {
+  fill: #A0A0A0; }
+
+.st9 {
+  fill: #989898;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+.st10 {
+  fill: #909090; }
+
+.st11 {
+  fill: #888888; }
+
+.st12 {
+  fill: #808080; }
+
+.st13 {
+  fill: #787878; }
+
+.st14 {
+  fill: #707070; }
+
+.st15 {
+  fill: #686868; }
+
+.st16 {
+  fill: #606060; }
+
+.st17 {
+  fill: #585858; }
+
+.st18 {
+  fill: #505050; }
+
+.st19 {
+  fill: #484848; }
+
+.st20 {
+  fill: #404040; }
+
+.st21 {
+  fill: #383838; }
+
+.st22 {
+  fill: #303030; }
+
+.st23 {
+  fill: #282828; }
+
+.st24 {
+  fill: #202020; }
+
+.st25 {
+  fill: #181818; }
+
+.st26 {
+  fill: #101010; }
+
+.st27 {
+  fill: #080808; }
+
+.jsst0 {
+  fill: #F6DE1E; }
+
+.jsst1 {
+  fill: #010100; }
+
+.phpst0 {
+  fill: #8892BD; }
+
+.phpst1 {
+  fill: #232532; }
+
+.sqlst0 {
+  fill: #5F88A1; }
+
+.sqlst1 {
+  fill: #F39724; }
+
+.fxst0 {
+  fill: #D291FF; }
+
+.fxst1 {
+  fill: #1F0040; }
+
+.auditionst0 {
+  fill: #00E4BB; }
+
+.auditionst1 {
+  fill: #002620; }
+
+.auditionst2 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #00E4BB; }
+
+.blenderst0 {
+  fill: #0D528A; }
+
+.blenderst1 {
+  fill: #F5792A; }
+
+.maxst0 {
+  fill: #00C1C1; }
+
+.maxst1 {
+  fill: url(#XMLID_12_); }
+
+.maxst2 {
+  fill: url(#XMLID_13_); }
+
+.maxst3 {
+  fill: url(#XMLID_14_); }
+
+.maxst4 {
+  fill: url(#XMLID_15_); }
+
+.maxst5 {
+  opacity: 0.9;
+  fill: url(#XMLID_16_); }
+
+.maxst6 {
+  fill: url(#XMLID_17_); }
+
+.maxst7 {
+  fill: url(#XMLID_18_); }
+
+.maxst8 {
+  fill: url(#XMLID_19_); }
+
+.maxst9 {
+  opacity: 0.9;
+  fill: #007C7C; }
+
+.dwst0 {
+  fill: #35FA00; }
+
+.dwst1 {
+  fill: #072600; }
+
+.indst0 {
+  fill: #FF3F94; }
+
+.indst1 {
+  fill: #2E0013; }
+
+.lrst0 {
+  fill: #ADD5EC; }
+
+.lrst1 {
+  fill: #0A2431; }
+
+.offst0 {
+  fill: #EB3C00; }
+
+.psst0 {
+  fill: #00C8FF; }
+
+.psst1 {
+  fill: #001D26; }
+
+.prmst0 {
+  fill: #EA77FF; }
+
+.prmst1 {
+  fill: #261300; }
+
+.rhst0 {
+  fill: #FFFFFF; }
+
+.rhst1 {
+  fill: #ED1C24; }
+
+.vrayst0 {
+  fill: #231F20; }
+
+.illusst0 {
+  fill: #FF7C00; }
+
+.illusst1 {
+  fill: #261300; }
+
+.cssst0 {
+  fill: #0170BA; }
+
+.cssst1 {
+  fill: #29A9DF; }
+
+.cssst2 {
+  fill: #CFCFCF; }
+
+.cssst3 {
+  fill: #FFFFFF; }
+
+.starst0 {
+  fill: #FFE000;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+.workanast0 {
+  fill: #133255; }
+
+.estrella {
+  display: block;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  -ms-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s; }
+
+.barra {
+  display: none;
+  opacity: 1; }
+
+@media only screen and (min-width: 1px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+  body {
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 1rem;
+    background: white;
+    overflow-x: hidden; }
+
+  a {
+    text-decoration: none; }
+    a:visited {
+      color: inherit; }
+    a:link {
+      color: inherit; }
+
+  ul {
+    list-style-type: none; }
+
+  blockquote {
+    font-family: "Quintessential", cursive; }
+
+  .info-pagina {
+    height: 100%;
+    width: 100%; }
+
+  .video-inicio, .foto-inicio {
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50.1%) translateY(-50%);
+    z-index: -1; }
+    .video-inicio video, .foto-inicio video {
+      height: 100%; }
+
+  .foto-inicio {
+    filter: brightness(50%); }
+    .foto-inicio img {
+      height: 100%; }
+
+  .titulo-pagina {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #espacio-vacio {
+    width: 100vw;
+    height: 100vh; }
+
+  @keyframes pendulo {
+    from {
+      transform: translateY(0); }
+    to {
+      transform: translateY(0vh); }
+    50% {
+      transform: translateY(-2vh); } }
+  .main {
+    font-size: 1rem;
+    padding-top: 3rem; }
+
+  .sub-main-impar {
+    background-color: rgba(36, 102, 153, 0.85);
+    color: white; }
+
+  .sub-main-par {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black; }
+
+  .sub-main-margen {
+    padding: 1rem; }
+
+  .imagen-enlace {
+    width: 100vw; }
+    .imagen-enlace a {
+      position: relative;
+      display: block;
+      height: calc(100vw*9/16);
+      z-index: 1; }
+      .imagen-enlace a img {
+        filter: brightness(50%);
+        width: 100%; }
+    .imagen-enlace h1 {
+      position: absolute;
+      font-size: 2rem;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      color: white; }
+
+  .btn {
+    font-family: "Ubuntu", sans-serif;
+    border: none;
+    padding: 1rem;
+    font-size: 0.7rem;
+    text-align: center; }
+    .btn:hover {
+      cursor: pointer; }
+
+  .btn-blanco {
+    background-color: white;
+    color: #246699 !important;
+    transition: all ease 0.5;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5; }
+    .btn-blanco:hover {
+      background-color: #b7b7b7;
+      color: white;
+      transition: all ease 0.5;
+      -webkit-transition: all ease 0.5;
+      -moz-transition: all ease 0.5;
+      -ms-transition: all ease 0.5;
+      -o-transition: all ease 0.5; }
+
+  .btn-azul {
+    background-color: #246699;
+    color: white !important;
+    transition: all ease 0.5;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5; }
+    .btn-azul:hover {
+      background-color: #b7b7b7;
+      color: #246699 !important;
+      transition: all ease 0.5;
+      -webkit-transition: all ease 0.5;
+      -moz-transition: all ease 0.5;
+      -ms-transition: all ease 0.5;
+      -o-transition: all ease 0.5; }
+
+  .btn-centrado {
+    display: block;
+    text-align: content;
+    width: 8rem;
+    margin: auto; }
+
+  .btn-abajo {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -15vh;
+    background-color: transparent;
+    border-style: none;
+    font-size: 2rem;
+    color: white;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .btn-abajo:hover {
+      cursor: pointer;
+      animation: pendulo 1s infinite; }
+    .btn-abajo a {
+      color: white; }
+      .btn-abajo a:hover {
+        color: white; }
+      .btn-abajo a:visited {
+        color: white; }
+      .btn-abajo a:link {
+        color: white; }
+
+  .btn-span {
+    font-size: 1rem; }
+
+  .contenedor-imagen-elegida {
+    position: relative;
+    background-color: rgba(36, 102, 153, 0.85);
+    overflow: hidden; }
+
+  .btn-visor {
+    display: none !important; }
+
+  .imagen-elegida {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden; }
+
+  .foto-unica {
+    width: 100%;
+    margin: 0;
+    opacity: 1;
+    transition: all ease 2s;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    -ms-transition: all ease 2s;
+    -o-transition: all ease 2s; }
+
+  .navbar-boton-contenedor {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100vw;
+    background-color: rgba(36, 102, 153, 0.5);
+    justify-content: space-between;
+    padding: 0 1rem;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  .navbar-boton {
+    display: flex;
+    width: 2rem; }
+    .navbar-boton:hover {
+      cursor: pointer; }
+
+  .m-logo {
+    width: 3rem; }
+
+  .menu-principal {
+    z-index: 2;
+    position: fixed;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .menu-principal .navbar {
+      width: 80vw;
+      left: -81vw;
+      top: 3.25rem;
+      display: block;
+      position: absolute;
+      background-color: rgba(36, 102, 153, 0.5);
+      color: white;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+      .menu-principal .navbar ul {
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+        .menu-principal .navbar ul li {
+          transition: all ease 0.5s;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          -ms-transition: all ease 0.5s;
+          -o-transition: all ease 0.5s; }
+          .menu-principal .navbar ul li a {
+            display: flex;
+            padding: 1rem;
+            font-size: 1em;
+            color: white;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            -ms-transition: all ease 0.5s;
+            -o-transition: all ease 0.5s; }
+            .menu-principal .navbar ul li a:hover {
+              background-color: white;
+              color: #246699;
+              transition: all ease 0.5s;
+              -webkit-transition: all ease 0.5s;
+              -moz-transition: all ease 0.5s;
+              -ms-transition: all ease 0.5s;
+              -o-transition: all ease 0.5s; }
+
+  .logo {
+    display: none; }
+
+  #footer-general {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    flex-direction: row;
+    padding: 1rem; }
+
+  #footer-logo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.7rem; }
+    #footer-logo img {
+      width: 5rem;
+      margin: auto; }
+
+  #footer-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 0.8rem;
+    margin: auto 0; }
+
+  #info-cocina {
+    position: relative;
+    margin: 7.5rem 0 0 0;
+    text-align: center; }
+
+  .titulo-perfil-cocina {
+    position: absolute;
+    font-size: 2rem;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  #img-cocina {
+    width: 13rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+
+  #contenedor-imagen-perfil-cocina img {
+    width: 100%; }
+
+  .datos-cocina {
+    padding: 12rem 2rem 1rem 2rem;
+    text-align: left;
+    display: flex; }
+    .datos-cocina ul {
+      margin: auto; }
+      .datos-cocina ul li {
+        display: flex;
+        border-bottom: solid 1px white; }
+        .datos-cocina ul li p {
+          padding: 1rem 0; }
+
+  .icon-datos {
+    padding: 1rem; }
+
+  .ultimo-dato {
+    border-bottom: none !important; }
+
+  #perfil-cocina {
+    padding: 1.5rem; }
+    #perfil-cocina h2 {
+      text-align: center; }
+
+  .perfil-texto {
+    font-family: "Ubuntu", sans-serif; }
+
+  .footnote-perfil {
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    border-top: solid 1px black; }
+
+  #experiencia {
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    color: white;
+    background-color: rgba(36, 102, 153, 0.75); }
+    #experiencia h2 {
+      padding-bottom: 1rem; }
+
+  #experiencia-cocina {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 2em 0 2em 0; }
+
+  .contenedor-linea-tiempo {
+    display: none; }
+
+  #trabajos {
+    width: 100%; }
+
+  .m-boton-experiencia {
+    width: 100%;
+    border-top: solid 1px #246699; }
+    .m-boton-experiencia:hover {
+      cursor: pointer; }
+
+  .experiencia-laboral {
+    height: 0;
+    display: block;
+    text-align: left;
+    color: black;
+    overflow-y: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease 0.5;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5; }
+
+  #trabajo-kunstmann {
+    background-image: url("/img/sobre-mi/empresas/kunstmann.jpg"); }
+
+  #trabajo-quatre {
+    background-image: url("/img/sobre-mi/empresas/quatre.jpg"); }
+
+  #trabajo-dadga {
+    background-image: url("/img/sobre-mi/empresas/dagda.jpg"); }
+
+  #trabajo-pioneros {
+    background-image: url("/img/sobre-mi/empresas/pioneros.jpg"); }
+
+  #trabajo-llao {
+    background-image: url("/img/sobre-mi/empresas/llao.jpg"); }
+
+  #trabajo-oliver {
+    background-image: url("/img/sobre-mi/empresas/oliver.jpg"); }
+
+  #trabajo-chamberi {
+    background-image: url("/img/sobre-mi/empresas/chamberi.jpg"); }
+
+  #trabajo-gigis {
+    background-image: url("/img/sobre-mi/empresas/gigis.jpg"); }
+
+  #trabajo-saja {
+    background-image: url("/img/sobre-mi/empresas/saja.jpg"); }
+
+  #trabajo-monkey {
+    background-image: url("/img/sobre-mi/empresas/monkey.jpg"); }
+
+  #trabajo-laforchetta {
+    background-image: url("/img/sobre-mi/empresas/laforchetta.jpg"); }
+
+  #trabajo-solowrap {
+    background-image: url("/img/sobre-mi/empresas/solowrap.jpg"); }
+
+  #trabajo-gimnasio {
+    background-image: url("/img/sobre-mi/empresas/gimnasio.jpg"); }
+
+  #formacion-fude {
+    background-image: url("/img/sobre-mi/empresas/fude.jpg"); }
+
+  #formacion-filosofia {
+    background-image: url("/img/sobre-mi/empresas/filosofia.jpg"); }
+
+  #formacion-mesa {
+    background-image: url("/img/sobre-mi/empresas/mesa.jpg"); }
+
+  #formacion-fisica {
+    background-image: url("/img/sobre-mi/empresas/fisica.jpg"); }
+
+  #formacion-cocina {
+    background-image: url("/img/sobre-mi/empresas/cocina.jpg"); }
+
+  .titulo-empresa {
+    padding: 2rem 0; }
+
+  .logo-empresa {
+    width: 80%;
+    max-height: 10rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+    margin: auto; }
+    .logo-empresa img {
+      width: 100%; }
+
+  .info-empresa {
+    padding: 1rem; }
+    .info-empresa ul li {
+      display: flex;
+      flex-direction: row;
+      border-bottom: solid 1px black;
+      margin: 0 1rem; }
+      .info-empresa ul li span {
+        padding: 0.5rem; }
+      .info-empresa ul li p {
+        padding: 0.5rem 0; }
+
+  .puesto-trabajo {
+    font-size: 2rem; }
+
+  .descripcion-empresa {
+    padding: 0 1rem 1rem;
+    font-family: "Ubuntu", sans-serif; }
+
+  #habilidades {
+    background-color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    padding: 2rem 1rem; }
+
+  .skills {
+    overflow: hidden;
+    max-height: 40rem; }
+
+  .imagen-skills {
+    text-align: center;
+    width: 50vw;
+    margin: 2rem auto; }
+    .imagen-skills:hover {
+      cursor: pointer; }
+
+  .descripcion-skill {
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    top: -4.1rem;
+    height: 0px;
+    background: #246699;
+    color: white;
+    margin: 0 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease 0.5;
+    -webkit-transition: all ease 0.5;
+    -moz-transition: all ease 0.5;
+    -ms-transition: all ease 0.5;
+    -o-transition: all ease 0.5; }
+
+  .descripcion-skill-texto {
+    padding: 1rem; }
+
+  .cita-libro-aderecha {
+    margin-left: 3rem;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px black; } }
+@media only screen and (min-width: 640px) {
+  .menu-principal .navbar {
+    width: 20vw; }
+
+  #habilidades-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .skills {
+    padding: 2rem;
+    width: 40%;
+    overflow: scroll; }
+
+  .imagen-skills {
+    width: 100%; }
+
+  #footer-general {
+    align-items: center;
+    padding: 0; }
+    #footer-general a {
+      color: white;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+      #footer-general a:hover {
+        color: #246699;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+
+  #footer-logo {
+    flex-direction: row;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 1em; }
+    #footer-logo img {
+      width: 6rem;
+      height: 6rem;
+      padding: 0.5rem; }
+    #footer-logo p {
+      padding: 1rem; }
+
+  #footer-texto {
+    display: inline-flex;
+    padding: 2em;
+    flex-direction: row;
+    font-size: inherit; } }
+@media only screen and (min-width: 768px) {
+  .perfil-texto {
+    padding: 0 2rem; } }
+@media only screen and (min-width: 1024px) {
+  .contenedor-imagenes-enlace {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    width: 100%; }
+
+  .imagen-enlace {
+    position: relative;
+    width: 20vw;
+    overflow: hidden;
+    filter: brightness(50%);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .imagen-enlace:hover {
+      cursor: pointer;
+      filter: brightness(100%);
+      width: 33.3vw; }
+      .imagen-enlace:hover h1 {
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        color: white;
+        font-size: 2em;
+        opacity: 1;
+        text-shadow: 0.2em 0.2em 0.2em black;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+      .imagen-enlace:hover img {
+        filter: brightness(100%);
+        transform: translateX(-50%); }
+    .imagen-enlace a img {
+      width: auto; }
+    .imagen-enlace h1 {
+      display: block;
+      top: 45%;
+      left: -50%;
+      opacity: 0;
+      font-size: 2rem;
+      z-index: 2;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+    .imagen-enlace img {
+      z-index: 1;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+
+  .visor-album {
+    position: fixed;
+    z-index: 3;
+    display: none;
+    width: 99vw;
+    height: 99vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  .imagen-elegida {
+    width: auto;
+    position: relative;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    z-index: 4; }
+    .imagen-elegida img {
+      width: auto;
+      margin: auto;
+      max-height: 98vh; }
+
+  .contenedor-imagen-elegida {
+    background-color: transparent;
+    margin: auto;
+    width: 100%; }
+
+  .foto-unica {
+    opacity: 1;
+    transition: all ease 2s;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+    -ms-transition: all ease 2s;
+    -o-transition: all ease 2s; }
+
+  .m-btn-info {
+    display: none !important; }
+
+  .btn-visor {
+    display: block !important;
+    position: absolute;
+    color: #A49E9F;
+    z-index: 5;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .btn-visor:hover {
+      cursor: pointer;
+      color: #246699;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+
+  #btn-mas {
+    font-size: 3em;
+    top: 45%;
+    right: 3%; }
+
+  #btn-menos {
+    font-size: 3em;
+    top: 45%;
+    left: 3%; }
+
+  #btn-cerrar {
+    font-size: 2em;
+    top: 1%;
+    right: 1%; }
+
+  #btn-info {
+    font-size: 2em;
+    top: 1%;
+    left: 1%; }
+
+  .miniaturas-album {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 20%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.85);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 4;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  .foto-miniatura-visor {
+    position: relative;
+    padding: 0.2em;
+    filter: brightness(50%);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .foto-miniatura-visor:hover {
+      cursor: pointer;
+      filter: brightness(99%);
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+
+  .transicion1 {
+    -webkit-animation-name: transicion1;
+    -webkit-animation-duration: 1.5s;
+    animation-name: transicion1;
+    animation-duration: 1.5s; }
+
+  @-webkit-keyframes transicion1 {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @keyframes transicion1 {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .transicion2 {
+    -webkit-animation-name: transicion2;
+    -webkit-animation-duration: 0.5s;
+    animation-name: transicion2;
+    animation-duration: 0.5s; }
+
+  @-webkit-keyframes transicion2 {
+    from {
+      opacity: 1; }
+    to {
+      opacity: 0; } }
+  @keyframes transicion2 {
+    from {
+      opacity: 1; }
+    to {
+      opacity: 0; } }
+  #info-cocina {
+    justify-content: center;
+    display: flex;
+    padding: 2rem 15vw 2rem 15vw;
+    flex-wrap: wrap; }
+
+  .titulo-perfil-cocina {
+    position: static;
+    transform: translate(0);
+    width: 75%;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: solid lightgray 0.5px; }
+
+  #img-cocina {
+    position: static;
+    transform: translateX(0) translateY(0);
+    width: 37%;
+    justify-content: right;
+    display: flex;
+    padding: 2rem; }
+
+  #contenedor-imagen-perfil-cocina {
+    height: 100%;
+    overflow: hidden;
+    width: auto;
+    margin: auto 0; }
+    #contenedor-imagen-perfil-cocina img {
+      width: 100%; }
+
+  .datos-cocina {
+    padding: 2rem;
+    width: 37%;
+    border-left: solid lightgray 0.1em; }
+    .datos-cocina ul li {
+      padding: 0rem;
+      vertical-align: text-top;
+      border-bottom: solid lightgray 0.5px;
+      display: flex;
+      flex-direction: row; }
+      .datos-cocina ul li p {
+        padding: 1rem; }
+
+  #icon-ultimo {
+    border-bottom: none; }
+
+  .icon-datos {
+    padding: 0.5rem;
+    font-size: 2rem; }
+
+  .cita-libro {
+    padding: 2rem 2rem 2rem 30rem; }
+
+  .footnote-perfil {
+    font-size: 1rem;
+    border-top: solid 0.1rem;
+    padding-top: 1rem; }
+
+  #perfil-cocina {
+    padding: 3rem 10vw;
+    background-color: rgba(255, 255, 255, 0.75);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify; }
+
+  .m-boton-experiencia {
+    display: none; }
+
+  #experiencia {
+    font-size: 1.5rem;
+    padding: 2rem 5vw;
+    color: white;
+    background-color: rgba(36, 102, 153, 0.75); }
+
+  #experiencia-cocina {
+    display: flex;
+    height: 80vh;
+    overflow: hidden;
+    margin: 2rem 0 2rem 0; }
+
+  .contenedor-linea-tiempo {
+    display: block;
+    width: 25%;
+    overflow-y: scroll; }
+
+  #linea-tiempo {
+    display: flex;
+    flex-direction: row;
+    height: 350vh;
+    width: 100%; }
+
+  #trabajos {
+    width: 75%;
+    padding: 0 2rem; }
+
+  .experiencia-laboral {
+    font-size: 1.2rem;
+    height: 100%;
+    padding: 1rem 5rem;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    color: black;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #trabajo-kunstmann {
+    background-image: url("/img/sobre-mi/empresas/kunstmann.jpg"); }
+
+  #trabajo-quatre {
+    background-image: url("/img/sobre-mi/empresas/quatre.jpg"); }
+
+  #trabajo-dadga {
+    background-image: url("/img/sobre-mi/empresas/dagda.jpg"); }
+
+  #trabajo-pioneros {
+    background-image: url("/img/sobre-mi/empresas/pioneros.jpg"); }
+
+  #trabajo-llao {
+    background-image: url("/img/sobre-mi/empresas/llao.jpg"); }
+
+  #trabajo-oliver {
+    background-image: url("/img/sobre-mi/empresas/oliver.jpg"); }
+
+  #trabajo-chamberi {
+    background-image: url("/img/sobre-mi/empresas/chamberi.jpg"); }
+
+  #trabajo-gigis {
+    background-image: url("/img/sobre-mi/empresas/gigis.jpg"); }
+
+  #trabajo-saja {
+    background-image: url("/img/sobre-mi/empresas/saja.jpg"); }
+
+  #trabajo-monkey {
+    background-image: url("/img/sobre-mi/empresas/monkey.jpg"); }
+
+  #trabajo-laforchetta {
+    background-image: url("/img/sobre-mi/empresas/laforchetta.jpg"); }
+
+  #trabajo-solowrap {
+    background-image: url("/img/sobre-mi/empresas/solowrap.jpg"); }
+
+  #trabajo-gimnasio {
+    background-image: url("/img/sobre-mi/empresas/gimnasio.jpg"); }
+
+  #formacion-fude {
+    background-image: url("/img/sobre-mi/empresas/fude.jpg"); }
+
+  #formacion-filosofia {
+    background-image: url("/img/sobre-mi/empresas/filosofia.jpg"); }
+
+  #formacion-mesa {
+    background-image: url("/img/sobre-mi/empresas/mesa.jpg"); }
+
+  #formacion-fisica {
+    background-image: url("/img/sobre-mi/empresas/fisica.jpg"); }
+
+  #formacion-cocina {
+    background-image: url("/img/sobre-mi/empresas/cocina.jpg"); }
+
+  .titulo-empresa {
+    display: flex; }
+
+  .logo-empresa {
+    width: 40%;
+    max-height: 10rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+    margin: auto; }
+    .logo-empresa img {
+      width: 100%; }
+
+  .info-empresa {
+    width: 60%;
+    text-align: left;
+    padding: 0.5rem;
+    border-left: solid lightgray 0.1em; }
+    .info-empresa ul li {
+      vertical-align: text-top;
+      border-bottom: solid lightgray 0.5px;
+      display: flex;
+      flex-direction: row;
+      font-size: 1rem; }
+      .info-empresa ul li p {
+        padding: 0.5rem; }
+
+  .icon-datos-empresa {
+    padding: 0.5rem;
+    font-size: 1rem; }
+
+  .ultimo-dato-empresa {
+    border-bottom: none !important; }
+
+  .descripcion-empresa {
+    padding: 1rem;
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif; }
+
+  .puesto-trabajo {
+    font-size: 2rem !important; }
+
+  #habilidades {
+    padding: 2rem 5vw;
+    background-color: rgba(255, 255, 255, 0.75); }
+
+  #habilidades-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto; }
+
+  .subtitulo-habilidades-movil {
+    display: none; }
+
+  .skills {
+    overflow: visible;
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: auto; }
+
+  .imagen-skills {
+    margin: auto;
+    width: 10rem;
+    height: auto; }
+
+  .descripcion-skill {
+    font-family: "Ubuntu", sans-serif;
+    position: absolute;
+    top: 0;
+    background-color: #246699;
+    z-index: 1;
+    padding: 1.5rem;
+    height: 100%;
+    font-size: 1rem;
+    width: 35rem;
+    text-align: left;
+    border-radius: 3rem;
+    color: white;
+    display: none;
+    opacity: 0;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s; }
+
+  .skill-izq {
+    left: 80%; }
+
+  .skill-der {
+    right: 80%; }
+
+  #imagen-administracion:hover + #descripcion-administracion {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-normatividad:hover + #descripcion-normatividad {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-servicio:hover + #descripcion-servicio {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-caliente:hover + #descripcion-caliente {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-fria:hover + #descripcion-fria {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-parrilla:hover + #descripcion-parrilla {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-reposteria:hover + #descripcion-reposteria {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  #imagen-panaderia:hover + #descripcion-panaderia {
+    display: block;
+    animation: opacar 0.3s 1;
+    animation-fill-mode: forwards;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+
+  @keyframes opacar {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .imagen-enlace-sobre-mi {
+    position: relative;
+    width: 33vw;
+    /*heigth: auto */
+    overflow: hidden;
+    filter: brightness(50%);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .imagen-enlace-sobre-mi a {
+      height: 100vh; }
+      .imagen-enlace-sobre-mi a img {
+        filter: brightness(50%);
+        height: 100%;
+        width: auto; }
+    .imagen-enlace-sobre-mi:hover {
+      cursor: pointer;
+      filter: brightness(100%);
+      width: 50vw; }
+      .imagen-enlace-sobre-mi:hover h1 {
+        display: block;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        color: white;
+        font-size: 2em;
+        opacity: 1;
+        text-shadow: 0.2em 0.2em 0.2em black;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+      .imagen-enlace-sobre-mi:hover img {
+        transform: translateX(-20%);
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+    .imagen-enlace-sobre-mi h1 {
+      display: block;
+      position: absolute;
+      top: 45%;
+      left: -50%;
+      opacity: 0;
+      font-size: 2em;
+      z-index: 2;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+    .imagen-enlace-sobre-mi img {
+      heigth: 100vw;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; } }
+@media only screen and (min-width: 1280px) {
+  .video-inicio, .foto-inicio {
+    min-width: 100%;
+    min-height: 100%; }
+
+  .video-inicio video {
+    min-width: 100%;
+    min-height: 100%;
+    height: auto; }
+
+  .foto-inicio img {
+    width: 100%; }
+
+  .titulo-pagina {
+    top: 60%;
+    left: 50%;
+    max-width: 50vw;
+    font-size: 4em; }
+
+  .main {
+    padding-top: 3em; }
+
+  .navbar-boton-contenedor {
+    display: none; }
+
+  .navbar-boton {
+    display: none; }
+
+  .menu-principal {
+    width: 99vw;
+    height: auto;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s; }
+    .menu-principal .navbar {
+      left: 0;
+      top: 0;
+      width: 100%;
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+      .menu-principal .navbar ul {
+        list-style: none;
+        display: inline-flex;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+        .menu-principal .navbar ul li {
+          padding: 2rem;
+          color: white;
+          transition: all ease 0.5s;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          -ms-transition: all ease 0.5s;
+          -o-transition: all ease 0.5s; }
+          .menu-principal .navbar ul li a {
+            font-size: 1.2rem;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            -ms-transition: all ease 0.5s;
+            -o-transition: all ease 0.5s; }
+            .menu-principal .navbar ul li a:hover {
+              background-color: transparent; }
+    .menu-principal .logo {
+      display: inline-flex;
+      width: 12rem;
+      height: 12rem;
+      margin-top: 15rem;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s;
+      object-position: center center;
+      object-fit: cover; }
+    .menu-principal .navbar-scrolled {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(36, 102, 153, 0.5);
+      width: 100%;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s; }
+      .menu-principal .navbar-scrolled ul {
+        list-style: none;
+        display: inline-flex;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        -ms-transition: all ease 0.5s;
+        -o-transition: all ease 0.5s; }
+        .menu-principal .navbar-scrolled ul li {
+          padding: 1rem;
+          transition: all ease 0.5s;
+          -webkit-transition: all ease 0.5s;
+          -moz-transition: all ease 0.5s;
+          -ms-transition: all ease 0.5s;
+          -o-transition: all ease 0.5s; }
+          .menu-principal .navbar-scrolled ul li a {
+            color: white;
+            padding: 1rem;
+            transition: all ease 0.5s;
+            -webkit-transition: all ease 0.5s;
+            -moz-transition: all ease 0.5s;
+            -ms-transition: all ease 0.5s;
+            -o-transition: all ease 0.5s; }
+            .menu-principal .navbar-scrolled ul li a:hover {
+              color: #B7B7B7;
+              transition: all ease 0.5s;
+              -webkit-transition: all ease 0.5s;
+              -moz-transition: all ease 0.5s;
+              -ms-transition: all ease 0.5s;
+              -o-transition: all ease 0.5s; }
+    .menu-principal .logo-scrolled {
+      padding-top: 0rem;
+      width: 3rem;
+      height: 3rem;
+      transition: all ease 0.5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      -ms-transition: all ease 0.5s;
+      -o-transition: all ease 0.5s;
+      object-position: center center;
+      object-fit: cover; } }
