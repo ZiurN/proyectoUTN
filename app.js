@@ -8,7 +8,10 @@ var handlerbars = require('handlebars');
 
 //rutas de acceso
 var indexRouter = require('./routes/index');
+
 var fotografiaRouter = require('./routes/fotografia');
+var fotografiaCRUDRouter = require('./routes/editar-galeria');
+
 var modeladoRouter = require('./routes/modelado');
 var videoRouter = require('./routes/video');
 var disenoRouter = require('./routes/diseno');
@@ -50,7 +53,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 //rutas
 app.use('/', indexRouter);
 app.use('/home', indexRouter);
+
 app.use('/fotografia', fotografiaRouter);
+app.use('/fotografia/gestion', fotografiaCRUDRouter);
 app.use('/modelado', modeladoRouter);
 app.use('/video', videoRouter);
 app.use('/diseno', disenoRouter);

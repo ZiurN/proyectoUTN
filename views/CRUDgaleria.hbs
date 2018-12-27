@@ -1,0 +1,142 @@
+<section id="main" class="main">
+	<section class="sub-main-impar sub-main-margen resumen">
+		<div class="row">
+			<div class="col-md-6">
+				<form action="<?php echo RUTA_SUBIDA_FOTOS ?>" method="post" enctype="multipart/form-data">
+					<div class="form-group">
+						<label for="foto-album">Album</label>
+						<select class="form-control" id="foto-album" name="foto_album">
+							<option value="S.C. de Bariloche">S.C. de Bariloche</option>
+							<option value="Vida animal">Vida animal</option>
+							<option value="Lago Moreno">Lago Perito Moreno</option>
+							<option value="Itaipu">Itaipu</option>
+							<option value="Jardin">Jardin</option>
+							<option value="Circuito Chico">Circuito Chico</option>
+							<option value="Retratos">Retratos</option>
+							<option value="En Accion">En Accion</option>
+							<option value="Miscelaneos">Miscelaneos</option>
+							<option value="Iguazu">Iguazu</option>
+							<option value="Nahuel Huapi">Nahuel Huapi</option>
+							<option value="3d Bathroom">3d Bathroom</option>
+							<option value="3d Moleculas">3d moleculas</option>
+							<option value="3d Xopas">3d xopas</option>
+							<option value="3d Tohatsu">3d Tohatsu</option>
+							<option value="3d Muebles">3d Muebles</option>
+							<option value="3d Tante Sara">3d Tante Sara</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="foto-ubicacion">Ubicacion de la foto</label>
+						<input type="text" class="form-control" name="foto-ubicacion"></input>
+					</div>
+					<div class="form-group">
+						<label for="descripcion">Descripcion del album</label>
+						<textarea class="form-control" name="foto-descripcion" id="foto-descripcion" rows="3"></textarea>
+						<small id="fileHelp" class="form-text text-muted">Si quieres una descripción de cada foto individualmente, puedes, o subir una única foto, o luego editar la info de cada foto individualmente.</small>
+					</div>
+
+					<div class="form-group">
+						<label for="exampleInputFile">Selecciona las fotos para el album</label>
+						<input type="file" class="form-control-file" id="fotocargada[]" name="fotocargada[]" aria-describedby="fileHelp" multiple="">
+						<small id="fileHelp" class="form-text text-muted">Se pueden seleccionar varias fotos al tiempo</small>
+					</div>
+					<input type="submit" value="enviar imagen para fotografia" name="enviar-imagen-foto"></input>
+					<br>
+					<input type="submit" value="enviar imagen para otra cosa" name="enviar-imagen-otros"></input>
+					<br>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<div class="container">
+					<p>Si quieres modificar o eliminar alguna fotografía, selecciona el album donde está esta foto y elige la opción que requieras.</p>
+				</div>
+				<form>
+					<div class="form-group">
+						<label for="exampleSelect1">Selecciona un Album</label>
+						<select class="form-control" id="exampleSelect1" name="foto_album">
+							<option class='album-modificador' value="S.C. de Bariloche">S.C. de Bariloche</option>
+							<option class='album-modificador' value="Vida animal">Vida animal</option>
+							<option class='album-modificador' value="Lago Moreno">Lago Perito Moreno</option>
+							<option class='album-modificador' value="Itaipu">Itaipu</option>
+							<option class='album-modificador' value="Jardin">Jardin</option>
+							<option class='album-modificador' value="Circuito Chico">Circuito Chico</option>
+							<option class='album-modificador' value="Retratos">Retratos</option>
+							<option class='album-modificador' value="En Accion">En Accion</option>
+							<option class='album-modificador' value="Miscelaneos">Miscelaneos</option>
+							<option class='album-modificador' value="Iguazu">Iguazu</option>
+							<option class='album-modificador' value="Nahuel Huapi">Nahuel Huapi</option>
+							<option class='album-modificador' value="3d Bathroom">3d Bathroom</option>
+							<option class='album-modificador' value="3d Moleculas">3d moleculas</option>
+							<option class='album-modificador' value="3d Xopas">3d xopas</option>
+							<option class='album-modificador' value="3d Tohatsu">3d Tohatsu</option>
+							<option class='album-modificador' value="3d Muebles">3d Muebles</option>
+							<option class='album-modificador' value="3d Tante Sara">3d Tante Sara</option>
+						</select>
+					</div>
+					<div class="form-group form-images">
+						<div id="form-images">
+							<?php
+							include_once RAIZ . '/app/constructor_galeria_modificador.inc.php';
+							?>
+						</div>
+						<input id='foto-elegida-output' type="hidden" class="form-control" name="foto-ubicacion" value=""></input>
+					</div>
+					<button type="button" class="btn btn-light" id="btn-modificar" data-toggle="modal" data-target="#AvisoModalModi">Modificar Info</button>
+					<button type="button" id="btn-eliminar" class="btn btn-light" data-toggle="modal" data-target="#AvisoModal">Eliminar la fotografía</button>
+				</form>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="AvisoModal" tabindex="-1" role="dialog" aria-labelledby="AvisoModal" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Eliminar Fotografía</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  		<span aria-hidden="true">&times;</span>
+								</button>
+							
+							</div>
+							<div class="modal-body" id="cuerpo-modal">
+								<p>Eliminarás la fotografía de la base de datos, esta imágen no se visualizará más en el album, si la quieres volver a ver allí, tendrás que resubirla. ¿Estas seguro?</p>
+								<div id="imagen-borrar-mini">
+
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">No, volver</button>
+								<button id="btn-eliminar-confirmacion" type="button" class="btn btn-primary" data-dismiss="modal">Si, eliminar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="AvisoModalModi" tabindex="-1" role="dialog" aria-labelledby="AvisoModalModi" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modificar Datos de Fotografía</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  		<span aria-hidden="true">&times;</span>
+								</button>
+							
+							</div>
+							<div class="modal-body" id="cuerpo-modal">
+								<p>Los Metadatos de la Fotografía no pueden ser modificados, solo puedes editar la ubicación, el album al que pertenece, y la descripción.</p>
+								<form id="formulario-actualizacion">
+									
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">No, volver</button>
+								<button form="formulario-actualizacion" name="enviar-actualizacion" id="btn-modificar-confirmacion" type="button" class="btn btn-primary" data-dismiss="modal">Actualizar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+</section>
+<script type="text/javascript" src="/js/modificarFotos.js"></script>

@@ -282,7 +282,7 @@ function listenerAlbum(elemento) {
 
 function realizarPeticionGaleria(album) {
 	"use strict";
-	var url = '/api';
+	var url = '/api/galeria';
 	var datos = new FormData();
 	datos.append('album', album);
 	peticion = new XMLHttpRequest();

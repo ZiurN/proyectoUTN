@@ -1,0 +1,3 @@
+[
+{ "_id" : { "$oid" : "5c215ff075a3174b1c959dff" }, "Autor" : "Jeferson", "Email" : "jefryruiz@gmail.com", "Clave" : "asd", "Fecha_registro" : "Mon Dec 24 2018 19:38:40 GMT-0300 (hora estándar de Argentina)", "Imagen" : "", "Activo" : "0" }
+]
